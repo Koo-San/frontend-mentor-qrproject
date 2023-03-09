@@ -1,0 +1,67 @@
+:root {
+    /*PALLETE*/
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(212, 45%, 89%);
+    --grayBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--lightGrey);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
+
+.container .center img {
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.bigText {
+    margin-bottom: 15px;
+}
+
+.bigText h1 {
+    color: var(--darkBlue);
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+}
+
+.smallText {
+    margin-bottom: 15px;
+}
+
+.smallText p {
+    font-weight: 400;
+    color: var(--grayBlue);
+    text-align: center;
+    font-size: 15px;
+}
